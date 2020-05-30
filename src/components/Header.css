@@ -1,0 +1,10 @@
+.Header {
+  background-color: white;
+  border-bottom: #e6e8e8 1px solid;
+}
+
+.Header img {
+  vertical-align: middle;
+  height: 59px;
+  object-fit: cover;
+}

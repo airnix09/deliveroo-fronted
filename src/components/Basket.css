@@ -1,0 +1,133 @@
+.basket {
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 25px;
+  padding: 11px;
+  box-sizing: border-box;
+  width: 400px;
+  position: fixed;
+}
+
+.basket-btn {
+  background-color: #00c6b5;
+  font-size: 16px;
+  color: white;
+  height: 50px;
+  width: 100%;
+  padding: 16px;
+  outline: none;
+  border-radius: 10px;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
+.basket-btn-empty {
+  background-color: #bac3c3;
+  font-size: 16px;
+  color: #8b9a9b;
+  height: 50px;
+  width: 100%;
+  padding: 16px;
+  outline: none;
+  border-radius: 10px;
+  border-width: 0px;
+  box-sizing: border-box;
+  cursor: not-allowed;
+}
+
+.basket-empty {
+  text-align: center;
+  padding: 48px 0;
+  font-size: 16px;
+  color: #868a8a;
+}
+
+.basket-content {
+  line-height: 28px;
+  padding: 12px 0;
+  height: 230px;
+  overflow: scroll;
+}
+
+.selected-meal {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.selected-meal span {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.selected-meal-name {
+  margin-left: 10px;
+}
+
+.selected-meal-info {
+  display: flex;
+  flex: 4;
+}
+
+.selected-meal-price {
+  display: flex;
+  justify-content: flex-end;
+  color: #2e3333;
+  flex: 1;
+}
+
+.selected-meal-price > span {
+  padding: 5px 0px 5px 5px;
+}
+
+.selected-meal-total {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.selected-meal-desc {
+  display: flex;
+  justify-content: flex-start;
+  flex: 3;
+  color: #2e3333;
+}
+
+.meal-operator {
+  color: #00c6b5;
+}
+
+.selected-meal-qty {
+  color: #808484;
+}
+
+.bill-desc {
+  padding: 12px 0;
+  border-bottom: 1px solid #cbd1d1;
+  border-top: 1px solid #cbd1d1;
+  color: #2e3333;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delivery-fee {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  color: #2e3333;
+  font-size: 19px;
+  line-height: 40px;
+}

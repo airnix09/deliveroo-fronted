@@ -1,0 +1,47 @@
+.Meal {
+  margin: 12px 20px 12px 0;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 162px;
+  width: 367px;
+  box-sizing: border-box;
+  flex-shrink: 1;
+  cursor: pointer;
+}
+
+.Meal img {
+  height: 130px;
+  width: 130px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.meal-title {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #2e3333;
+}
+
+.meal-price {
+  font-size: 17px;
+  color: #808484;
+  margin-right: 22px;
+}
+.meal-pic {
+  margin-left: 16px;
+}
+
+.meal-desc {
+  margin-bottom: 16px;
+  overflow-y: hidden;
+  height: 40px;
+}
+
+.meal-popular {
+  color: #ff8000;
+  font-size: 12px;
+  font-weight: 900;
+}
